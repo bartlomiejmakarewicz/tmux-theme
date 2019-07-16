@@ -54,3 +54,6 @@ set -g message-command-style bg=colour233,fg=black
 
 # Mode
 set -g mode-style bg=colour4,fg=colour232
+
+set -g window-style 'bg=#313b43'
+set -g window-active-style 'bg=#263137'
