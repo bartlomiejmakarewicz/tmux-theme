@@ -9,7 +9,7 @@ set -g status-style fg=colour240,bg=colour233
 # Left side of status bar
 set -g status-left-style bg=colour233,fg=colour243
 set -g status-left-length 40
-set -g status-left "#{?client_prefix,#[bg=colour2],#[bg=colour4]}#[fg=colour233,bold] #S #[bg=colour240,nobold]#{?client_prefix,#[fg=colour2],#[fg=colour4]}#[fg=colour233,bg=colour240] #(whoami) #[fg=colour240,bg=colour235]#[fg=colour240,bg=colour235] #I:#P #[fg=colour235,bg=colour233,nobold]"
+set -g status-left "#{?client_prefix,#[bg=colour2],#{?pane_in_mode,#[bg=colour9],#[bg=colour4]}}#[fg=colour233,bold] #S #[bg=colour240,nobold]#{?client_prefix,#[fg=colour2],#{?pane_in_mode,#[fg=colour9],#[fg=colour4]}}#[fg=colour233,bg=colour240] #(whoami) #[fg=colour240,bg=colour235]#[fg=colour240,bg=colour235] #I:#P #[fg=colour235,bg=colour233,nobold]"
 
 # Right side of status bar
 set -g status-right-style bg=colour233,fg=colour243
