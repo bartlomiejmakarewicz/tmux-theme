@@ -30,7 +30,7 @@ set -g window-status-format "#[fg=colour0,bg=colour237,nobold]#[fg=colour3,bg
 set -g window-status-current-format "#[fg=colour0,bg=colour3,nobold] #I \ue0b1 #W#F #[fg=colour3,bg=colour0,nobold]"
 
 # Pane styles
-set -g window-style 'bg=#263137'
+set -g window-style 'bg=#151923'
 set -g window-active-style 'bg=colour0'
 
 # Window separator
